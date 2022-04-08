@@ -1,0 +1,140 @@
+.protfilo{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+
+.main{
+  /* background-image: url('/src/images/intro-bg.jpg'); */
+
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.5)), url("../../images//intro-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height:800px;
+}
+
+
+.head-body {
+  color: white;
+  text-align: center;
+  padding-top: 220px;
+
+
+}
+
+.transfrom {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(40, 179, 214), rgb(250, 143, 143), rgb(51, 147, 211));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+}
+
+.myBtn{
+    border: 2px solid rgb(1, 214, 125);
+  color:rgb(1, 214, 125);
+  width: 160px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top:20px; 
+  font-size: 17px;
+  font-family: sans-serif;
+  background:none;
+ 
+}
+
+.myBtn:hover{
+  background-color: rgb(15, 228, 121);
+  color: white;
+  transition: 0.5s;
+  border: none;
+  
+}
+
+.main-part{
+  margin:30px;
+}
+
+
+.more{
+  text-align: center;
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.more .about{
+  font-size: 130px;
+  color:rgb(187, 184, 184);
+  opacity: 0.3;
+  text-transform: uppercase;
+  font-weight: 700px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.more p{
+  position: absolute;
+  color:black;
+  font-size: 40px;
+  margin-left:40%;
+  margin-top:55px;
+  font-weight: 900px;
+  font-family: bold;
+}
+
+
+.more .sp{
+    border-bottom: 2px solid rgb(15, 228, 121);
+    border-width: 4px;
+}
+
+
+/* .my-opnion{
+    dis
+} */
+
+.my-bio{
+    font-family:  Georgia;
+}
+
+
+.myCV{
+    border: 2px solid rgb(1, 214, 125);
+    color:White;
+    width: 180px;
+    height: 55px;
+    border-radius: 30px;
+    margin-top:20px; 
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color:rgb(1, 214, 125);
+    margin:12px;
+    border:none;
+}
+
+.myCV:hover{
+    background-color:rgb(62, 185, 134);
+    border:none;
+}

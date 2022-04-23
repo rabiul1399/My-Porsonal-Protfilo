@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='header'>
+      
+            <div className='header'>
                 <img src={images} alt="" />
                 <h3>Rabiul Islam</h3>
                 
@@ -25,6 +26,8 @@ const Header = () => {
             
         
         </div>
+       
+    
     );
 };
 

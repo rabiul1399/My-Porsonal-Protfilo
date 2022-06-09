@@ -5,7 +5,7 @@ import twitter from '../../../images/logo/twitter_logo_PNG1.png';
 const BootstrapNavbar = () => {
     return (
         <div>
- <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
+ <nav className="navbar navbar-expand-lg  navbar-dark bg-success">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">Rabiul Islam</a>
    <div className='navbar-nav d-flex flex-row ms-auto '>

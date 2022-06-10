@@ -1,6 +1,7 @@
 import { Button } from 'bootstrap';
 import React from 'react';
 import ContactMe from '../ContactMe/ContactMe';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import MyProjects from '../MyProjects/MyProjects';
@@ -23,6 +24,7 @@ const MainBody = () => {
           <Resume></Resume>
           <MyProjects></MyProjects>
           <ContactMe></ContactMe>
+          <Footer></Footer>
         </div>
 
       </div>

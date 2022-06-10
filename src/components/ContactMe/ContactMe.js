@@ -21,7 +21,7 @@ const ContactMe = () => {
             </Form> */}
 
 
-<form className='w-75 mx-auto' target="_blank" action="https://formsubmit.co/2a5acb234ed762ba5f8df5d1a39e50b0 " method="POST">
+<form className='w-75 mx-auto' target="_blank" action="https://formsubmit.co/2a5acb234ed762ba5f8df5d1a39e50b0" method="POST">
 <div className="mb-3">
     <input type="text" name='name' className="form-control" id="exampleInputPassword1"  placeholder='Name' required/>
   </div>
